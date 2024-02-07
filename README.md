@@ -3,14 +3,8 @@
 Welcome to the GIK Transport Portal GitHub repository! 🎉 This repository contains two HTML files, each representing a different aspect of the GIK Transport Portal.
 
 ## Contents 📋
-
-1. [Introduction](#introduction) 🌟
-2. [Features](#features) ✨
-3. [File Structure](#file-structure) 📁
-4. [How to Use](#how-to-use) 🚀
-5. [Contributing](#contributing) 🤝
-6. [License](#license) 📝
-
+[![Introduction](https://img.shields.io/badge/Introduction-🌟-blue)](#introduction) [![Features](https://img.shields.io/badge/Features-✨-green)](#features) [![File Structure](https://img.shields.io/badge/File_Structure-📁-orange)](#file-structure) [![How to Use](https://img.shields.io/badge/How_to_Use-🚀-red)](#how-to-use) [![Contributing](https://img.shields.io/badge/Contributing-🤝-purple)](#contributing) [![License](https://img.shields.io/badge/License-📝-yellow)](#license)
+ 🌟
 ## Introduction 🎈
 
 The GIK Transport Portal is an online platform designed to provide convenient transportation services to users. It aims to simplify the process of booking transportation, offering various features to enhance user experience.
