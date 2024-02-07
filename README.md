@@ -66,6 +66,6 @@ As the creator of this project, I am currently learning web development and will
 
 ## License 📝
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](License).
 
 Thank you for using the GIK Transport Portal! If you have any questions or need further assistance, please don't hesitate to contact us. 🙌🚀
