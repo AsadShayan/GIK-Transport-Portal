@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        .container-fluid{
+            background-color: #19204c;
+        }
+        .login-card{
+            display: inline-block;
+            background-color: white;   
+            margin-top: 35px;
+            margin-left: 50px;
+            width: 430px;
+            border: 1px solid  #19204c;
+            box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.507);
+            border-radius: 20px;
+            text-align: center;
+            padding: 19px;
+        }
+     body{
+        background-color: #19204c;
+     }
+     .content{
+        margin-top: 15px;
+        display: inline-block;
+        width: 800px;
+        font-family: 'Pacifico', cursive;
+        margin-left: 20px;
+        color: white;
+     }
+     .content-para{
+        opacity: 0; /* Initially hidden */
+        animation: fadeIn 1s ease-in forwards;
+        width: 670px;
+        color: white;
+     }
+     @keyframes fadeIn {
+        from {
+        opacity: 0; /* Start from fully transparent */
+      }
+      to {
+        opacity: 1; /* End with full opacity */
+     }
+    }
+     </style>
+</head>
+<body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="padding-top: 0px">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color: white;"> <img src="/images/logo_white_text-1-400x122.png" width="160px"style="margin-right: 10px;"> GIK Move</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Refund</a></li>
+            <li><a class="dropdown-item" href="#">Get a coupon</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Roman Lala Contact#</a></li>
+          </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+<div class="content">
+    <h1>Welcome to GIK Transport Portal!</h1><hr>
+    <p style="font-family: 'Open Sans'; font-weight: 600;" class="content-para"> Convenience: Booking transportation through our portal saves you time and effort compared to traditional methods.<br>
+    Cost-effective: Enjoy competitive pricing and various deals and discounts available exclusively on our portal.<br>
+    Reliability: With GIK Transport, you can rely on punctual and efficient transportation services for all your needs.<br>
+    Flexibility: Our portal offers flexible booking options, allowing you to schedule rides according to your own schedule.<br>
+    Safety: We prioritize the safety of our passengers, ensuring all vehicles are regularly maintained and drivers are trained professionals.<br>
+    Accessibility: Access our portal from anywhere at any time, making it convenient for you to book transportation on the go.<br>
+    Feedback and Reviews: Share your experience and provide feedback through our portal, helping us improve our services continuously.<br></p>
+</div>
+<div class="login-card"">
+    <main class="form-signin w-100 m-auto">
+  <form>
+    <img class="mb-4" src="/images/Ghulam_Ishaq_Khan_Institute_of_Engineering_Sciences_and_Technology_(insignia).png" alt="Giik logo" width="70" height="70">
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" style="margin-bottom: 10px;">
+      <label for="floatingInput">Email address</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="form-check text-start my-3">
+      <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault" style="margin-bottom: 20px;">
+      <label class="form-check-label" for="flexCheckDefault">
+        Remember me
+      </label>
+    </div>
+    <a class="btn btn-primary w-100 py-2" type="submit" href="/learning-bootstrap.html">Sign in</a>
+    
+    <p class="mt-4 mb-4 text-body-secondary">Already have an account.<span style="cursor: pointer; text-decoration: underline;">Login In</span></p>
+  </form>
+</main> 
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
