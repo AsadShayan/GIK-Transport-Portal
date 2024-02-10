@@ -9,7 +9,7 @@ Welcome to the GIK Transport Portal GitHub repository! 🎉 This repository cont
 
 The GIK Transport Portal is an online platform designed to provide convenient transportation services to users. It aims to simplify the process of booking transportation, offering various features to enhance user experience.
 
-## Features 🌟
+## Features  🌟
 
 ### Common Features
 
